@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Candy Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div id="branding">
+            <h1><a href="index.html"><span class="highlight">Music </span>Quiz</a></h1>
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="yearQuiz.html">YearQuiz</a></li>
+                <li><a href="colorQuiz.html">ColorQuiz</a></li>
+                <li class="current"><a href="candyQuiz.html">CandyQuiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="candyWrapper">
+
+        <div class="tab">
+            <button class="tablinks" onclick="openCandy(event, 'Welcome')" id="defaultOpen">Music Candy</button>
+            <button class="tablinks" onclick="openCandy(event, 'Snickers')">Snickers</button>
+            <button class="tablinks" onclick="openCandy(event, 'CandyShop')">CandyShop</button>
+        </div>
+
+        <div id="Welcome" class="tabcontent">
+            <h3>Music Candy</h3>
+            <p>Click on titles to get songs associated with candy</p>
+        </div>
+
+        <div id="Snickers" class="tabcontent">
+            <h3>Snickers</h3>
+            <p>Song</p> 
+        </div>
+
+        <div id="CandyShop" class="tabcontent">
+            <h3>CandyShop</h3>
+            <p>Take Me To The Candy Shop - 50cent</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Music Quiz By Atli Pall Petursson</p>
+      </footer>
+
+    <script src="javascript/candy.js"></script>
+</body>
+</html>

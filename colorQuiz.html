@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Color Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div id="branding">
+            <h1><a href="index.html"><span class="highlight">Music </span>Quiz</a></h1>
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="yearQuiz.html">YearQuiz</a></li>
+                <li class="current"><a href="colorQuiz.html">ColorQuiz</a></li>
+                <li><a href="candyQuiz.html">CandyQuiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2> Click the Color to view Songs</h2>
+    <div class="colorWrapper">
+        <button style="background-color: yellow;" class="colorButtons" id="button1" onclick="openColor('button1', 'Yellow Submarine </br> The Beatles')"></button>
+        <button style="background-color: red;color: white" class="colorButtons" id="button2" onclick="openColor('button2', 'Red-Song')"></button>
+        <button style="background-color: blue;color: white" class="colorButtons" id="button3" onclick="openColor('button3', 'Blue-Song')"></button>
+        <button style="background-color: black;color: white" class="colorButtons" id="button4" onclick="openColor('button4', 'Black And Yellow </br> Wiz Khalifa')"></button>
+        <button style="background-color: white;" class="colorButtons" id="button5" onclick="openColor('button5', 'White-Song')"></button>
+        <button style="background-color: purple;color: white" class="colorButtons" id="button6" onclick="openColor('button6', 'Purple Light </br> CityBois')"></button>
+        <button style="background-color: brown;color: white" class="colorButtons" id="button7" onclick="openColor('button7', 'Brown-Song')"></button>
+        <button style="background-color: pink;" class="colorButtons" id="button8" onclick="openColor('button8', 'Pink-Song')"></button>
+    </div>
+    
+    <footer>
+        <p>Music Quiz By Atli Pall Petursson</p>
+      </footer>
+
+    <script src="javascript/color.js"></script>
+</body>
+</html>

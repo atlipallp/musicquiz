@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #ececec;
+}
+
+.wrapper {
+	display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.box {
+  margin: 10px auto;
+	width: 800px;
+	color: black;
+	text-align: center;
+	background-color:#ececec;
+	padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.flex-row {
+  margin: auto;
+}
+
+/* Header */
+.navli, a, button, header #branding {
+  color: #24252a;
+  text-decoration: none;
+}
+header #branding {
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  border-bottom: #1d7d81 3px solid;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+header .highlight, header .current a{
+  color: #1d7d81;
+  font-weight: bold;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #1d7d81;
+}
+
+
+/* Years and facts */
+.answerclass {
+  margin: auto;
+	width: 800px;
+	color: black;
+	text-align: center;
+	background-color:#ececec;
+	padding: 10px;
+  display: none;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+  margin: 10px auto;
+	background: #1d7d81;
+	padding: 10px;
+	border-radius: 5px;
+	color: #ffffff;
+	font-size: 16px;
+  border: none;
+  width: 800px;
+  cursor: pointer;
+}
+
+.button:hover {
+	background: rgb(89, 120, 121, 0.8);
+}
+
+/* Candy Page */
+.candyWrapper {
+  width: 80%;
+  margin: 30px auto;
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #1d7d81;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #1d7d81;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+}
+
+/* Color Page */
+.colorWrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.colorButtons {
+  margin: 30px auto;
+  height: 250px;
+  width: 250px;
+  border: none;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+h3 {
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+p {
+  padding: 10px;
+}
+
+footer{
+  padding:20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(29, 125, 129, 0.8);
+  color: black;
+  text-align: center;
+}
